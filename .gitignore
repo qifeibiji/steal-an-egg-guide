@@ -14,3 +14,5 @@ out/
 # Verification output
 coverage/
 
+
+.vercel
