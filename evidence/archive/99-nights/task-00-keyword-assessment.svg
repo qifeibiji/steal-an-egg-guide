@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1500" viewBox="0 0 1800 1500">
+  <defs>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#174e4a"/><stop offset="1" stop-color="#368b76"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#1a2f2a" flood-opacity=".16"/></filter>
+    <style>
+      .title{font:700 56px 'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#fff}.sub{font:400 23px 'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#d8eee8}.meta{font:400 19px 'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#59716c}.th{font:700 24px 'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#153a32}.rlabel{font:700 21px 'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#285449}.cell{font:400 19px 'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#263a36}.small{font:400 16px 'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#5d716d}.bold{font:700 22px 'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#173e35}.yes{font:700 23px 'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#13745d}.no{font:700 21px 'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#a84343}
+    </style>
+  </defs>
+  <rect width="1800" height="1500" fill="#f3f7f5"/>
+  <path d="M0 0H1800V255H0Z" fill="url(#head)"/>
+  <circle cx="1600" cy="65" r="240" fill="#7ac9a4" opacity=".16"/><circle cx="1720" cy="230" r="140" fill="#f2d07a" opacity=".12"/>
+  <text x="110" y="105" class="sub">AI 海外网站航海 · 关卡 1 最终提交版</text>
+  <text x="110" y="180" class="title">3 个候选游戏词判断表</text>
+  <text x="110" y="225" class="sub">Worldwide / 过去 12 个月 / Google Web Search　·　收口日期：2026-08-25</text>
+
+  <g filter="url(#shadow)"><rect x="75" y="305" width="1650" height="890" rx="22" fill="#fff"/></g>
+  <text x="105" y="282" class="meta">Trends 与 SERP 结论基于用户补交的真实截图观察；KD 为 SERP-relative assessment，不是 Ahrefs/Semrush 数值 KD。</text>
+  <rect x="75" y="305" width="1650" height="107" rx="22" fill="#dcefe8"/>
+  <path d="M75 390H1725M405 305V1195M845 305V1195M1285 305V1195M75 552H1725M75 707H1725M75 852H1725M75 1005H1725M75 1100H1725" stroke="#bfd5ce" stroke-width="2"/>
+  <text x="240" y="371" text-anchor="middle" class="th">判断维度</text>
+  <text x="625" y="360" text-anchor="middle" class="th">候选词 1</text><text x="625" y="392" text-anchor="middle" class="bold">Steal a Brainrot</text>
+  <text x="1065" y="360" text-anchor="middle" class="th">候选词 2</text><text x="1065" y="392" text-anchor="middle" class="bold">Grow a Garden</text>
+  <text x="1505" y="360" text-anchor="middle" class="th">候选词 3</text><text x="1505" y="392" text-anchor="middle" class="bold">99 Nights in the Forest</text>
+
+  <text x="240" y="482" text-anchor="middle" class="rlabel">Trends 趋势</text>
+  <text x="430" y="455" class="cell">三者平均最高</text><text x="430" y="487" class="cell">早高后长期明显下降</text><text x="430" y="519" class="small">当前远低于历史峰值</text>
+  <text x="870" y="455" class="cell">早期极高峰值</text><text x="870" y="487" class="cell">快速下降，有一次反弹</text><text x="870" y="519" class="small">当前处于历史低位</text>
+  <text x="1310" y="455" class="cell">三者平均最低</text><text x="1310" y="487" class="cell">低位并缓慢下降</text><text x="1310" y="519" class="small">不是趋势最强或当前最高</text>
+
+  <text x="240" y="637" text-anchor="middle" class="rlabel">SERP-relative assessment</text>
+  <text x="625" y="635" text-anchor="middle" class="bold">High</text><text x="625" y="671" text-anchor="middle" class="small">not numeric Ahrefs/Semrush KD</text>
+  <text x="1065" y="635" text-anchor="middle" class="bold">High</text><text x="1065" y="671" text-anchor="middle" class="small">not numeric Ahrefs/Semrush KD</text>
+  <text x="1505" y="625" text-anchor="middle" class="bold">Head term: High</text><text x="1505" y="657" text-anchor="middle" class="small">Specific long tails: Medium–High opportunity</text><text x="1505" y="685" text-anchor="middle" class="small">not numeric Ahrefs/Semrush KD</text>
+
+  <text x="240" y="785" text-anchor="middle" class="rlabel">细分关键词空间</text>
+  <text x="625" y="780" text-anchor="middle" class="bold">10+ 个候选词族</text><text x="1065" y="780" text-anchor="middle" class="bold">10+ 个候选词族</text>
+  <text x="1505" y="770" text-anchor="middle" class="bold">17 个公开证据支持候选</text><text x="1505" y="805" text-anchor="middle" class="small">11 个进入 MVP 关键词清单</text>
+
+  <text x="240" y="928" text-anchor="middle" class="rlabel">首页竞争难度</text>
+  <text x="625" y="905" text-anchor="middle" class="bold">VERY HIGH</text><text x="625" y="940" text-anchor="middle" class="small">官网 / Fandom / exact sites / 平台结果多</text>
+  <text x="1065" y="905" text-anchor="middle" class="bold">HIGH</text><text x="1065" y="940" text-anchor="middle" class="small">独立站 / Roblox / Fandom / 视频 / Reddit</text>
+  <text x="1505" y="905" text-anchor="middle" class="bold">MEDIUM-HIGH</text><text x="1505" y="940" text-anchor="middle" class="small">首屏传统独立 SEO 内容站相对较少</text>
+
+  <text x="240" y="1065" text-anchor="middle" class="rlabel">做 / 不做</text>
+  <text x="625" y="1057" text-anchor="middle" class="no">BACKUP</text><text x="625" y="1086" text-anchor="middle" class="small">NOT THIS ITERATION</text>
+  <text x="1065" y="1057" text-anchor="middle" class="no">REJECT</text><text x="1065" y="1086" text-anchor="middle" class="small">FOR THIS ITERATION</text>
+  <text x="1505" y="1057" text-anchor="middle" class="yes">SELECTED</text><text x="1505" y="1086" text-anchor="middle" class="small">MAIN GAME</text>
+
+  <g filter="url(#shadow)"><rect x="75" y="1250" width="1650" height="170" rx="22" fill="#164e42"/></g>
+  <text x="115" y="1312" class="sub">正式主词</text><text x="275" y="1312" class="title" style="font-size:36px">99 Nights in the Forest</text>
+  <text x="115" y="1360" class="sub">不是 Trends 最大词；但有相对更开放的 SERP 内容结构与足够的具体长尾需求，适合 36 小时 MVP。</text>
+  <text x="75" y="1472" class="meta">下一步已完成规划：1 首页 + 1 Hub + 8 内容页；外挂、作弊与规避规则查询记录但明确排除。</text>
+</svg>

@@ -1,0 +1,16 @@
+# Project dependencies and build output
+node_modules/
+.next/
+out/
+
+# Keep all npm downloads and temporary task assets on D:
+.npm-cache/
+.superpowers/
+
+# Local environment values
+.env*
+!.env.example
+
+# Verification output
+coverage/
+

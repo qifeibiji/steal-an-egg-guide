@@ -1,0 +1,322 @@
+[
+  {
+    "path": "/",
+    "topic": "Start here",
+    "title": "Steal An Egg Guide: Clear, Checked Game Help",
+    "description": "A practical Steal An Egg guide hub for the core loop, eggs, pets, treadmill speed, base upgrades, events, and the current codes status.",
+    "h1": "Steal An Egg, explained without the guesswork.",
+    "answer": "Use this guide to understand the core loop first, then choose the next guide that matches the decision in front of you.",
+    "intro": "Steal An Egg is a Roblox experience built around stealing eggs, hatching pets, earning money, and progressing through speed and base upgrades. This independent guide keeps each answer narrow, practical, and dated when the game can change.",
+    "checkedDate": "2026-08-25",
+    "sections": [
+      {
+        "heading": "Start with the core loop",
+        "paragraphs": [
+          "A first session is easier when you treat the systems as one loop: get an egg, bring it back to your base, hatch a pet, let the pet contribute to your money, then choose the next upgrade that removes your current bottleneck.",
+          "Begin with the beginner guide if you need that loop in order. Use the collection, speed, and upgrade pages when you are deciding what to compare next."
+        ],
+        "links": ["/guides/beginner-guide/", "/guides/eggs-pets-income/", "/guides/speed-treadmill-biomes/", "/guides/base-upgrades-money/"]
+      },
+      {
+        "heading": "Find the answer you need now",
+        "paragraphs": [
+          "The guide hub groups every current MVP page by first-session play, collections and progression, or update-sensitive status. It is intentionally small: no scraped lists, exploit advice, invented values, or claims of official affiliation.",
+          "For fast-changing subjects, the article shows the date its recorded evidence was checked. Recheck the linked sources before relying on a roster, event, or code status in a later update."
+        ],
+        "links": ["/guides/", "/guides/admin-abuse-events/", "/guides/codes/"]
+      },
+      {
+        "heading": "Freshness is part of the answer",
+        "paragraphs": [
+          "Egg rosters, biome details, income values, event information, and code systems can change. This site avoids turning a dated source into a permanent promise.",
+          "The current Codes page is a status check, not a code list. The Admin Abuse page separates a recorded event window from details that were not confirmed in the available evidence."
+        ],
+        "links": ["/guides/codes/", "/guides/admin-abuse-events/"]
+      }
+    ],
+    "sources": [
+      { "name": "Steal An Egg official experience", "url": "https://www.roblox.com/games/107778070777162/Steal-An-Egg" },
+      { "name": "SpawnScope player count and update history", "url": "https://spawnscope.com/games/steal-an-egg/" }
+    ]
+  },
+  {
+    "path": "/guides/",
+    "topic": "Guide hub",
+    "title": "Steal An Egg Wiki Guide Hub: Find the Right Answer",
+    "description": "Browse focused Steal An Egg guides for beginners, eggs and pets, treadmill speed, base upgrades, Admin Abuse event context, and codes status.",
+    "h1": "The Steal An Egg guide hub.",
+    "answer": "Choose a guide by the game decision you need to make, not by a long list of disconnected tips.",
+    "intro": "This is an independent, update-aware reference for the systems named on the public game page and supported by the recorded guide sources. Every guide links back here so you can move between the loop instead of starting over.",
+    "checkedDate": "2026-08-25",
+    "sections": [
+      {
+        "heading": "First session",
+        "paragraphs": [
+          "Start with the beginner guide for the simple sequence from egg to pet to money to upgrades. It avoids fixed prices and gate values because those details need a fresh in-game check.",
+          "If you have already started, use the upgrade and treadmill guides to decide what kind of friction is slowing you down."
+        ],
+        "links": ["/guides/beginner-guide/", "/guides/base-upgrades-money/", "/guides/speed-treadmill-biomes/"]
+      },
+      {
+        "heading": "Collections and progression",
+        "paragraphs": [
+          "The eggs, pets, and income page gives a safe way to read a changing collection list: compare biome, rarity, and progression usefulness together rather than treating a single number as permanent.",
+          "The speed and biome page explains why treadmill training belongs in that progression conversation."
+        ],
+        "links": ["/guides/eggs-pets-income/", "/guides/speed-treadmill-biomes/"]
+      },
+      {
+        "heading": "Status checks",
+        "paragraphs": [
+          "Codes and events decay faster than evergreen mechanics. Read the checked date before acting on either page, and do not treat community reports as developer confirmation.",
+          "The current Codes status does not publish unverified strings or instructions for a redemption menu that the recorded sources did not find."
+        ],
+        "links": ["/guides/admin-abuse-events/", "/guides/codes/"]
+      }
+    ],
+    "sources": [
+      { "name": "Steal An Egg official experience", "url": "https://www.roblox.com/games/107778070777162/Steal-An-Egg" },
+      { "name": "Steal An Egg Wiki", "url": "https://steal-an-egg.online/" }
+    ]
+  },
+  {
+    "path": "/guides/beginner-guide/",
+    "topic": "First session",
+    "title": "Steal An Egg Beginner Guide: The First-Session Loop",
+    "description": "Learn the Steal An Egg first-session loop: steal an egg, hatch a pet at your base, earn money, and compare speed and base upgrades carefully.",
+    "h1": "Steal An Egg beginner guide: learn the loop first.",
+    "answer": "Your first objective is to turn an egg into a pet at your base, then use the money that pet earns to remove the next progression bottleneck.",
+    "intro": "The public experience description and the recorded beginner guide point to the same broad loop: stealing eggs, hatching pets, earning money, and using treadmill or base upgrades to progress. This page keeps that sequence useful without guessing at current prices or exact unlock requirements.",
+    "checkedDate": "2026-08-25",
+    "sections": [
+      {
+        "heading": "1. Bring an egg back to your base",
+        "paragraphs": [
+          "The game publicly frames stealing eggs as the starting action. Once you have an egg, use your base as the place to turn that find into the next step of the loop rather than treating the steal as the finish line.",
+          "The recorded beginner guide describes hatching at the base. Keep your first goal simple: create a pet before trying to optimize every system at once."
+        ],
+        "links": ["/guides/eggs-pets-income/", "/guides/base-upgrades-money/"]
+      },
+      {
+        "heading": "2. Let the pet support the money loop",
+        "paragraphs": [
+          "Pets are the public link between hatching and money. Treat early income as information: it tells you which improvement will make the next cycle easier, not a reason to chase a permanently ranked list.",
+          "When you are choosing between collection depth and mobility, compare the kind of limitation you are actually feeling in play."
+        ],
+        "links": ["/guides/eggs-pets-income/", "/guides/speed-treadmill-biomes/"]
+      },
+      {
+        "heading": "3. Upgrade the bottleneck, not a number",
+        "paragraphs": [
+          "The available guide evidence describes a broad order that considers treadmill or speed, available slots, and base upgrades. It does not justify a universal cost-based shopping list.",
+          "If movement is making every run slow, examine the treadmill and speed path. If your setup is the limit, compare the next base-related improvement. Recheck exact costs in the current game client."
+        ],
+        "links": ["/guides/speed-treadmill-biomes/", "/guides/base-upgrades-money/"]
+      }
+    ],
+    "sources": [
+      { "name": "Steal An Egg official experience", "url": "https://www.roblox.com/games/107778070777162/Steal-An-Egg" },
+      { "name": "Steal An Egg Beginner Guide", "url": "https://stealaneggguide.wiki/guides/beginner-guide/" }
+    ]
+  },
+  {
+    "path": "/guides/eggs-pets-income/",
+    "topic": "Collections",
+    "title": "Steal An Egg Eggs, Pets, and Income: A Safe Comparison Guide",
+    "description": "Use a changing Steal An Egg egg and pet list responsibly by comparing biome, rarity, and income context without relying on stale rosters or invented values.",
+    "h1": "Steal An Egg eggs, pets, and income: compare the live list safely.",
+    "answer": "Use the latest referenced list to compare eggs and pets by biome, rarity, and income context; do not assume a roster or income value stays fixed after an update.",
+    "intro": "Two recorded collection guides organize current eggs and pets around biome, rarity, and income-per-second progression. Their structure is useful, but their rosters and values are update-sensitive, so this page gives you a durable way to read them instead of copying a frozen list into an independent site.",
+    "checkedDate": "2026-08-25",
+    "sections": [
+      {
+        "heading": "Read the collection in three passes",
+        "paragraphs": [
+          "First, identify the biome or stage that the source places the egg or pet in. Second, read its rarity in that same context. Third, look at income as a progression attribute rather than as a permanent leaderboard.",
+          "This prevents a common mistake: treating a rare entry as automatically better for your own stage without considering how it fits the rest of the loop."
+        ],
+        "links": ["/guides/speed-treadmill-biomes/", "/guides/base-upgrades-money/"]
+      },
+      {
+        "heading": "Why this page does not freeze a roster",
+        "paragraphs": [
+          "The sources recorded for this guide are current collection references, not a developer-maintained promise that every entry, rarity, or income value will stay the same. A copied table would become misleading as soon as the game changes.",
+          "Before making a collection decision, check the source date and compare it with what the current game client shows. If they conflict, trust the current game rather than an older article."
+        ],
+        "links": ["/guides/", "/guides/admin-abuse-events/"]
+      },
+      {
+        "heading": "Use income to choose the next question",
+        "paragraphs": [
+          "If a pet is helping your money loop but movement is slowing every run, your next comparison belongs on the treadmill page. If the setup around your pets is the limit, move to the base upgrades page.",
+          "That is more useful than presenting an unverified universal best-egg ranking."
+        ],
+        "links": ["/guides/speed-treadmill-biomes/", "/guides/base-upgrades-money/"]
+      }
+    ],
+    "sources": [
+      { "name": "All Eggs, Pets, & Income Rates", "url": "https://games.gg/roblox/guides/steal-an-egg-all-eggs-pets-and-income-rates/" },
+      { "name": "All Eggs and Pets List", "url": "https://stealthygaming.com/steal-an-egg-all-eggs-and-pets-list/" }
+    ]
+  },
+  {
+    "path": "/guides/speed-treadmill-biomes/",
+    "topic": "Progression",
+    "title": "Steal An Egg Treadmill, Speed, and Biomes Guide",
+    "description": "Understand how the Steal An Egg treadmill connects to speed and biome progression, with practical choices that avoid unverified gate values and update-sensitive claims.",
+    "h1": "Steal An Egg treadmill, speed, and biomes: move with purpose.",
+    "answer": "The treadmill is the named speed-training system; use it when mobility is the friction in your current progression, while checking live biome gates rather than trusting fixed numbers.",
+    "intro": "The public game description names treadmill upgrades and speed, while the recorded guides connect training speed with moving through the wider biome-based progression. The exact gates can change, so this is a decision guide rather than a static unlock chart.",
+    "checkedDate": "2026-08-25",
+    "sections": [
+      {
+        "heading": "What the treadmill is for",
+        "paragraphs": [
+          "The official experience description names treadmill upgrades and speed. The recorded beginner guide places treadmill use in the broader route from early setup to later progression.",
+          "In practical terms, train speed when getting around is the thing that makes the rest of your loop feel slow. Do not train only because a detached checklist says to do so."
+        ],
+        "links": ["/guides/beginner-guide/", "/guides/base-upgrades-money/"]
+      },
+      {
+        "heading": "How speed connects to biomes",
+        "paragraphs": [
+          "The collection guide and the beginner guide both organize progress around biomes or later stages. Speed belongs in that conversation because movement affects how you reach and work within the next part of the game.",
+          "This evidence does not support publishing a permanent table of biome names, numerical gates, or the single best route. Check the current game state before you plan around a threshold."
+        ],
+        "links": ["/guides/eggs-pets-income/", "/guides/"]
+      },
+      {
+        "heading": "Choose the next improvement",
+        "paragraphs": [
+          "If the problem is travel and positioning, look at speed. If the problem is the money loop or the way your pet setup is supported, compare base-related upgrades instead.",
+          "Use the collection guide to understand what a new biome or rarity context could change, not as a guarantee of current values."
+        ],
+        "links": ["/guides/base-upgrades-money/", "/guides/eggs-pets-income/"]
+      }
+    ],
+    "sources": [
+      { "name": "All Eggs, Pets, & Income Rates", "url": "https://games.gg/roblox/guides/steal-an-egg-all-eggs-pets-and-income-rates/" },
+      { "name": "Steal An Egg Beginner Guide", "url": "https://stealaneggguide.wiki/guides/beginner-guide/" }
+    ]
+  },
+  {
+    "path": "/guides/base-upgrades-money/",
+    "topic": "Progression",
+    "title": "Steal An Egg Base Upgrades and Money Guide",
+    "description": "See how pets, money, treadmill speed, slots, and base upgrades connect in Steal An Egg without relying on unverified prices or a rigid upgrade order.",
+    "h1": "Steal An Egg base upgrades and money: spend for the bottleneck.",
+    "answer": "Pets earn money, and the most useful next upgrade is the one that removes the limit in your current loop rather than a fixed purchase order with stale prices.",
+    "intro": "The official experience says pets earn money and names base and treadmill upgrades. The recorded beginner guide discusses a broad spending order around speed, slots, and base upgrades. That supports a practical decision method, not invented costs or one universal build.",
+    "checkedDate": "2026-08-25",
+    "sections": [
+      {
+        "heading": "Follow the money back to the loop",
+        "paragraphs": [
+          "Money is connected to pets in the official description, so spending should be evaluated by what it does for the next egg-to-pet-to-upgrade cycle.",
+          "Ask one question before you spend: is the current limit movement, available setup capacity, or the base itself? That makes the choice clearer than comparing a price in isolation."
+        ],
+        "links": ["/guides/beginner-guide/", "/guides/eggs-pets-income/"]
+      },
+      {
+        "heading": "Use a broad order, not a frozen shopping list",
+        "paragraphs": [
+          "The recorded beginner source discusses treadmill or speed, slots, and base upgrades as categories to compare. It does not make a permanent claim about exact costs, payback times, or a single correct order for every update.",
+          "When travel slows your entire loop, examine speed. When your setup cannot support the next step, examine capacity or base improvements. Verify costs inside the current game client."
+        ],
+        "links": ["/guides/speed-treadmill-biomes/", "/guides/eggs-pets-income/"]
+      },
+      {
+        "heading": "Avoid false precision",
+        "paragraphs": [
+          "This guide deliberately does not publish prices, income projections, or permanent rankings. Those numbers are the first claims to become stale after a balance change.",
+          "Keep the source date visible, and use the linked beginner and collection guides to decide what to recheck when the game updates."
+        ],
+        "links": ["/guides/", "/guides/beginner-guide/"]
+      }
+    ],
+    "sources": [
+      { "name": "Steal An Egg official experience", "url": "https://www.roblox.com/games/107778070777162/Steal-An-Egg" },
+      { "name": "Steal An Egg Beginner Guide", "url": "https://stealaneggguide.wiki/guides/beginner-guide/" }
+    ]
+  },
+  {
+    "path": "/guides/admin-abuse-events/",
+    "topic": "Status",
+    "title": "Steal An Egg Admin Abuse: What Was Confirmed?",
+    "description": "A date-bounded Steal An Egg Admin Abuse event explainer that separates the recorded August 22–23 event information from unconfirmed rewards and mechanics.",
+    "h1": "Steal An Egg Admin Abuse: what was actually confirmed?",
+    "answer": "The recorded reports describe an Admin Abuse session around August 22–23, but rewards and detailed mechanics were not confirmed in the usable evidence.",
+    "intro": "Event information changes quickly and community discussion can outrun public confirmation. This page keeps the recorded event information date-bounded and labels the limit clearly: the available sources did not establish a complete, confirmed reward or mechanics list.",
+    "checkedDate": "2026-08-25",
+    "sections": [
+      {
+        "heading": "What the recorded sources support",
+        "paragraphs": [
+          "One dated event guide described an Admin Abuse session in the first update context. A separate structured status page recorded a public event title and an August 22–23 window.",
+          "That is enough to explain why players searched for the event, but it is not enough to publish a full feature list as fact."
+        ],
+        "links": ["/guides/", "/guides/eggs-pets-income/"]
+      },
+      {
+        "heading": "What remains unconfirmed",
+        "paragraphs": [
+          "The usable registry evidence did not fully publish or verify all rewards and mechanics. This guide therefore does not turn rumours, screenshots, or assumptions into a reward table.",
+          "If an event detail matters to your next decision, confirm it against the current game or an official developer channel before treating it as settled."
+        ],
+        "links": ["/guides/codes/", "/guides/beginner-guide/"]
+      },
+      {
+        "heading": "How to use a dated event page",
+        "paragraphs": [
+          "Read the checked date before relying on a schedule. Event timing, zones, and rewards are especially likely to be revised after the original announcement.",
+          "This page is an explainer for what was recorded, not a promise that the event is live now."
+        ],
+        "links": ["/guides/", "/guides/codes/"]
+      }
+    ],
+    "sources": [
+      { "name": "Admin Abuse Event (First Update)", "url": "https://allthings.how/steal-an-egg-admin-abuse-event-first-update/" },
+      { "name": "Admin Abuse Start Time & New Zone", "url": "https://stealanegg.app/updates/admin-abuse/" }
+    ]
+  },
+  {
+    "path": "/guides/codes/",
+    "topic": "Status",
+    "title": "Steal An Egg Codes: Are There Any Codes?",
+    "description": "Current Steal An Egg codes status: the recorded sources found no active codes and no reported redemption menu as of the latest check on August 25, 2026.",
+    "h1": "Steal An Egg Codes: are there any codes?",
+    "answer": "As of August 25, 2026, the recorded sources report no active codes and no reported redemption menu for Steal An Egg.",
+    "intro": "This is a status page, not a code generator. The recorded code-status sources were checked on August 25, 2026 and both reported that no functioning Codes system or redemption menu was available. If that changes, this page needs a fresh source check before it lists anything.",
+    "checkedDate": "2026-08-25",
+    "sections": [
+      {
+        "heading": "Current recorded status",
+        "paragraphs": [
+          "The two recorded status sources both reported no active codes and no working redemption menu at their respective update dates. This site does not have developer-owned evidence that changes that conclusion.",
+          "Do not rely on pages that publish unverified strings without showing a working, current redemption path."
+        ],
+        "links": ["/guides/", "/guides/beginner-guide/"]
+      },
+      {
+        "heading": "What to check if a system appears",
+        "paragraphs": [
+          "First, look for a clearly visible in-game redemption mechanism. Then confirm the information through a developer-owned post or an in-game result before treating a string as active.",
+          "Until both are present, a safer answer is that no usable code system has been verified."
+        ],
+        "links": ["/guides/admin-abuse-events/", "/guides/"]
+      },
+      {
+        "heading": "Why this page has a checked date",
+        "paragraphs": [
+          "Codes are highly update-sensitive. A true status on one date can become wrong after a single patch, so the date is part of the answer rather than an afterthought.",
+          "Recheck the linked sources and the current game before expecting this status to remain the same."
+        ],
+        "links": ["/guides/", "/"]
+      }
+    ],
+    "sources": [
+      { "name": "Steal An Egg Codes", "url": "https://bloxinformer.com/wikis/steal-an-egg/codes/" },
+      { "name": "Roblox Steal an Egg Codes (August 2026)", "url": "https://www.ldplayer.net/blog/roblox-steal-an-egg-codes.html?n=30420" }
+    ]
+  }
+]
