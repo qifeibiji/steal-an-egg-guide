@@ -28,3 +28,19 @@ test("provides a static Next route and SEO asset for every Task 4 requirement", 
     assert.ok(fs.existsSync(path.join(root, relativePath)), `${relativePath} must exist`);
   }
 });
+
+test("uses the dark game wiki presentation without adding new routes", () => {
+  const css = fs.readFileSync(path.join(root, "app", "globals.css"), "utf8");
+  const home = fs.readFileSync(path.join(root, "components", "home-page.tsx"), "utf8");
+  const guide = fs.readFileSync(path.join(root, "components", "guide-page.tsx"), "utf8");
+  const shell = fs.readFileSync(path.join(root, "components", "site-shell.tsx"), "utf8");
+
+  assert.match(css, /--surface-0:\s*#[0-9a-f]{6}/i, "dark surface token must exist");
+  assert.match(css, /--cyan:\s*#[0-9a-f]{6}/i, "cyan accent token must exist");
+  assert.match(css, /\.quick-reference/, "quick-reference card styling must exist");
+  assert.match(home, /Quick reference/, "home must include the quick reference module");
+  assert.match(home, /Site snapshot/, "home must include the site snapshot module");
+  assert.match(home, /No verified active codes/, "home must keep the verified codes status");
+  assert.match(guide, /guide-groups/, "guide hub must group the current guide cards");
+  assert.match(shell, /label: "Status"/, "header status link must use an existing page");
+});

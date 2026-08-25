@@ -2,12 +2,20 @@ import Link from "next/link";
 import type { PageData } from "@/lib/site-data";
 import { pages, titleForPath } from "@/lib/site-data";
 
+const guideGroups = [
+  { name: "Getting started", paths: ["/guides/beginner-guide/"] },
+  { name: "Collection", paths: ["/guides/eggs-pets-income/"] },
+  { name: "Progression", paths: ["/guides/speed-treadmill-biomes/", "/guides/base-upgrades-money/"] },
+  { name: "Status", paths: ["/guides/admin-abuse-events/", "/guides/codes/"] }
+];
+
 function RelatedLinks({ paths }: { paths: string[] }) {
   return (
     <div className="related-links" aria-label="Related guides">
+      <span>Related guides</span>
       {paths.map((path) => (
         <Link href={path} key={path}>
-          {titleForPath(path)} <span aria-hidden="true">→</span>
+          {titleForPath(path)} <i aria-hidden="true">&rarr;</i>
         </Link>
       ))}
     </div>
@@ -15,20 +23,35 @@ function RelatedLinks({ paths }: { paths: string[] }) {
 }
 
 function GuideIndex() {
-  const guides = pages.filter((page) => page.path !== "/" && page.path !== "/guides/");
-
   return (
     <section className="guide-index" aria-labelledby="guide-index-title">
-      <div className="section-label">The full MVP index</div>
-      <h2 id="guide-index-title">Choose the next useful question.</h2>
-      <div className="guide-index__grid">
-        {guides.map((guide) => (
-          <Link className="guide-index__item" href={guide.path} key={guide.path}>
-            <span className="guide-index__topic">{guide.topic}</span>
-            <strong>{guide.h1}</strong>
-            <span>{guide.answer}</span>
-            <b aria-hidden="true">→</b>
-          </Link>
+      <div className="guide-index__heading">
+        <div>
+          <p className="section-label">Guide index</p>
+          <h2 id="guide-index-title">Find the right part of the loop.</h2>
+        </div>
+        <p>Six focused pages, grouped by the decision you need to make.</p>
+      </div>
+      <div className="guide-groups">
+        {guideGroups.map((group) => (
+          <section className="guide-group" key={group.name}>
+            <h3>{group.name}</h3>
+            <div className="guide-group__items">
+              {group.paths.map((path) => {
+                const guide = pages.find((entry) => entry.path === path);
+                if (!guide) return null;
+
+                return (
+                  <Link className="guide-index__item" href={guide.path} key={guide.path}>
+                    <span className="guide-index__topic">{guide.topic}</span>
+                    <strong>{guide.h1}</strong>
+                    <span>{guide.answer}</span>
+                    <b aria-hidden="true">&rarr;</b>
+                  </Link>
+                );
+              })}
+            </div>
+          </section>
         ))}
       </div>
     </section>
@@ -48,8 +71,10 @@ export function GuidePage({ page }: { page: PageData }) {
       </div>
 
       <header className="article-header">
-        <p className="article-kicker">{page.topic}</p>
-        <p className="checked-note"><span aria-hidden="true">●</span> Checked {page.checkedDate}</p>
+        <div className="article-header__meta">
+          <p className="article-kicker">{page.topic}</p>
+          <p className="checked-note"><span aria-hidden="true" />Checked {page.checkedDate}</p>
+        </div>
         <h1>{page.h1}</h1>
         <p className="article-answer">{page.answer}</p>
         <p className="article-intro">{page.intro}</p>
@@ -78,7 +103,7 @@ export function GuidePage({ page }: { page: PageData }) {
         <ol>
           {page.sources.map((source) => (
             <li key={source.url}>
-              <a href={source.url} rel="noreferrer">{source.name} <span aria-hidden="true">↗</span></a>
+              <a href={source.url} rel="noreferrer">{source.name} <span aria-hidden="true">&nearr;</span></a>
             </li>
           ))}
         </ol>
