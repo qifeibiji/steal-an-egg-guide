@@ -90,28 +90,80 @@
     "checkedDate": "2026-08-25",
     "sections": [
       {
-        "heading": "1. Bring an egg back to your base",
+        "heading": "How the basic game loop works",
         "paragraphs": [
-          "The game publicly frames stealing eggs as the starting action. Once you have an egg, use your base as the place to turn that find into the next step of the loop rather than treating the steal as the finish line.",
-          "The recorded beginner guide describes hatching at the base. Keep your first goal simple: create a pet before trying to optimize every system at once."
+          "Steal An Egg makes more sense when you read its systems as one connected loop instead of separate chores. An egg is the starting point. You bring it back to your base, hatch a pet there, and the pet contributes to the money that supports further progression. Speed and base upgrades belong after that because they can make the next trip, collection choice, or setup decision less limiting.",
+          "That loop is also a useful filter for advice. A tip is only helpful when it explains which part of your current loop it improves. A copied list of prices or a claim that one item is always best does not do that, especially when the game can be updated. Start by noticing where the loop feels slow, then use the related guide that addresses that specific friction."
         ],
         "links": ["/guides/eggs-pets-income/", "/guides/base-upgrades-money/"]
       },
       {
-        "heading": "2. Let the pet support the money loop",
+        "heading": "What to do in your first session",
         "paragraphs": [
-          "Pets are the public link between hatching and money. Treat early income as information: it tells you which improvement will make the next cycle easier, not a reason to chase a permanently ranked list.",
-          "When you are choosing between collection depth and mobility, compare the kind of limitation you are actually feeling in play."
+          "Your first session does not need a perfect route. The practical goal is to see the full loop work once: get an egg, return it to your base, hatch the pet, and watch how that pet connects to money and later choices. Doing that gives each system a purpose before you start comparing rarities, biomes, movement, or upgrades.",
+          "Pause between each part of the loop and look for the real constraint. If reaching the next opportunity is awkward, movement may be the question to solve. If the money loop is not supporting the next useful change, your base or collection context may matter more. This keeps an early play session focused on observations rather than assumptions from an old guide."
         ],
-        "links": ["/guides/eggs-pets-income/", "/guides/speed-treadmill-biomes/"]
+        "items": [
+          "Bring an egg back to the base before treating a steal as finished progress.",
+          "Hatch the egg and connect the resulting pet to the money loop.",
+          "Name the current bottleneck before looking at an upgrade category.",
+          "Check the live game client whenever a choice depends on a changing cost or requirement."
+        ],
+        "links": ["/guides/eggs-pets-income/", "/guides/speed-treadmill-biomes/", "/guides/base-upgrades-money/"]
       },
       {
-        "heading": "3. Upgrade the bottleneck, not a number",
+        "heading": "Eggs and pets",
         "paragraphs": [
-          "The available guide evidence describes a broad order that considers treadmill or speed, available slots, and base upgrades. It does not justify a universal cost-based shopping list.",
-          "If movement is making every run slow, examine the treadmill and speed path. If your setup is the limit, compare the next base-related improvement. Recheck exact costs in the current game client."
+          "Eggs and pets are connected, but they are not the same decision. The egg is what you obtain in the loop; hatching is the transition that creates a pet at your base. The public experience description identifies eggs, pets, money, sizes, mutations, speed, and upgrades as parts of the game, while collection references organize egg and pet information around changing biome and rarity context.",
+          "For a new player, the important question is not whether a label sounds impressive in isolation. Ask where the egg or pet sits in the progression you are currently playing, what the current client shows, and whether the source you are reading has a recent date. The eggs, pets, and income guide explains how to compare those signals without publishing a roster that can go stale."
+        ],
+        "links": ["/guides/eggs-pets-income/", "/guides/"]
+      },
+      {
+        "heading": "Making money without chasing stale values",
+        "paragraphs": [
+          "Pets are the confirmed connection between hatching and money, so income is best read as part of progression rather than as a permanent scoreboard. When a pet helps the loop, use that result to decide which part of the next cycle deserves attention. That may be movement, a base-related improvement, or a different collection question; it is not automatically the highest-looking number on an old list.",
+          "Values and rosters can change after an update. Rather than memorizing a claim from a third-party table, compare the date of the reference with what you can see in game. If they disagree, the current game state is the safer source for a live decision. This site deliberately avoids inventing income figures or promising an unchanged ranking."
+        ],
+        "links": ["/guides/eggs-pets-income/", "/guides/base-upgrades-money/"]
+      },
+      {
+        "heading": "Treadmill and speed",
+        "paragraphs": [
+          "The treadmill is the named speed-training system in the public game description. It matters when getting around is the part of your loop that feels restrictive. If movement is making it harder to reach eggs, return to base, or work through the wider progression, speed is worth comparing against the other improvement categories.",
+          "That does not create a fixed rule that speed must always come first. The available evidence supports speed as a progression consideration, but not a universal threshold or a permanent spending order. Use the treadmill guide to decide when mobility is the bottleneck, and check the live game before relying on any numerical gate or route claim you see elsewhere."
         ],
         "links": ["/guides/speed-treadmill-biomes/", "/guides/base-upgrades-money/"]
+      },
+      {
+        "heading": "Base progression",
+        "paragraphs": [
+          "Your base is where the egg becomes a pet and where base-related upgrades connect to the loop. Think of it as the setup that supports the rest of your progress, not as a detached shopping menu. When you have money available, ask what is currently preventing a smoother cycle: travel, the setup around your pets, or another visible limitation in the base itself.",
+          "The recorded beginner evidence discusses speed, available space, and base upgrades as broad categories to compare. It does not establish a fixed purchase sequence that stays right through every update. A good early decision is therefore conditional: improve the category that removes the real friction you can see, and verify the present cost and effect in the client before committing."
+        ],
+        "links": ["/guides/base-upgrades-money/", "/guides/speed-treadmill-biomes/"]
+      },
+      {
+        "heading": "Common beginner mistakes",
+        "paragraphs": [
+          "The most avoidable early mistake is treating one part of the loop as the whole game. Stealing an egg without using the base, chasing a collection label without considering progression, or buying from a memorized order can all hide the question that actually needs answering. The confirmed systems work together, so decisions should be made in context.",
+          "Another mistake is treating update-sensitive information as permanent. Roster details, income context, biome progress, and event information can move. Prefer the current game client and a dated source over a screenshot, a copied string, or a confident claim with no visible evidence. That approach is slower for a moment and safer for every later choice."
+        ],
+        "items": [
+          "Do not stop at the steal; complete the egg-to-pet transition at the base.",
+          "Do not assume rarity alone answers a progression decision.",
+          "Do not use an old price, gate, or income claim as if it were live information.",
+          "Do not confuse a temporary event report with a permanent game mechanic."
+        ],
+        "links": ["/guides/eggs-pets-income/", "/guides/admin-abuse-events/"]
+      },
+      {
+        "heading": "What to read next",
+        "paragraphs": [
+          "Move to the eggs, pets, and income guide if you are deciding how to read a current collection list. Choose the treadmill, speed, and biomes guide if mobility is the friction in your runs. Choose the base upgrades and money guide if you need a practical way to spend without relying on invented prices.",
+          "If your question is about a fast-changing status rather than normal progression, use the event or codes pages and read their checked dates first. Those pages separate recorded evidence from details that have not been verified, so they are useful for knowing when not to trust a circulating claim."
+        ],
+        "links": ["/guides/eggs-pets-income/", "/guides/speed-treadmill-biomes/", "/guides/base-upgrades-money/", "/guides/codes/"]
       }
     ],
     "sources": [
@@ -130,28 +182,66 @@
     "checkedDate": "2026-08-25",
     "sections": [
       {
-        "heading": "Read the collection in three passes",
+        "heading": "How eggs and pets fit into progression",
         "paragraphs": [
-          "First, identify the biome or stage that the source places the egg or pet in. Second, read its rarity in that same context. Third, look at income as a progression attribute rather than as a permanent leaderboard.",
-          "This prevents a common mistake: treating a rare entry as automatically better for your own stage without considering how it fits the rest of the loop."
+          "Eggs begin the collection side of the Steal An Egg loop. You steal an egg, return it to the base, and hatch a pet that connects to money and later progression. That relationship is more useful than a disconnected list because it tells you why collection information matters: an egg is part of a route toward a pet, and a pet is part of the setup that supports future choices.",
+          "The public experience description confirms the broad loop, while current collection references organize their information by biome, rarity, and income context. Those labels are helpful only when read together. A collection decision should consider where you are in the game, what the current client displays, and which limitation you are trying to remove, rather than assuming a single label can solve every question."
         ],
-        "links": ["/guides/speed-treadmill-biomes/", "/guides/base-upgrades-money/"]
+        "links": ["/guides/beginner-guide/", "/guides/base-upgrades-money/"]
       },
       {
-        "heading": "Why this page does not freeze a roster",
+        "heading": "What an egg tells you",
         "paragraphs": [
-          "The sources recorded for this guide are current collection references, not a developer-maintained promise that every entry, rarity, or income value will stay the same. A copied table would become misleading as soon as the game changes.",
-          "Before making a collection decision, check the source date and compare it with what the current game client shows. If they conflict, trust the current game rather than an older article."
+          "An egg is not merely a collectible name. It is the item that moves the loop from stealing into hatching at your base. Collection guides may place eggs in a biome or rarity context, which can be useful for understanding where that information sits in a changing list. It does not automatically prove that the same entry, label, or outcome will remain unchanged after a later update.",
+          "When you see an egg listed online, start with the article date and whether it clearly identifies the game. Then compare the displayed information with the current client. If the source and the live experience differ, use the live experience for a decision you are making now. A frozen all-eggs table can look complete while becoming less reliable with every balance or roster change."
         ],
         "links": ["/guides/", "/guides/admin-abuse-events/"]
       },
       {
-        "heading": "Use income to choose the next question",
+        "heading": "Why pets need context",
         "paragraphs": [
-          "If a pet is helping your money loop but movement is slowing every run, your next comparison belongs on the treadmill page. If the setup around your pets is the limit, move to the base upgrades page.",
-          "That is more useful than presenting an unverified universal best-egg ranking."
+          "Hatching changes an egg into a pet, and pets are the confirmed bridge to money. That makes a pet relevant to more than collection pride: it affects how you think about the next progression choice. The useful comparison is not simply which pet has the most exciting name or rarest-looking label, but whether its current context helps the loop you are actually trying to improve.",
+          "Rarity can be one signal, and biome can be another, but neither is a permanent universal ranking. A player whose travel is restrictive may need to study speed even when their pet setup is working. A player whose setup is the visible limitation may need to consider base-related choices instead. Reading pets in context avoids pretending there is one answer for every stage."
         ],
         "links": ["/guides/speed-treadmill-biomes/", "/guides/base-upgrades-money/"]
+      },
+      {
+        "heading": "Income is a progression signal",
+        "paragraphs": [
+          "Collection references often present income as part of their egg and pet information. That is useful as a way to understand why pets matter to progression, but exact values are especially sensitive to updates. This guide therefore does not copy a permanent-looking income list or turn a dated value into advice that may be wrong in the current client.",
+          "Use income as a question: does the present pet setup support the next meaningful improvement, and what is that improvement meant to fix? If money is moving the loop forward but movement is the friction, speed is the next topic. If the setup around the pets is the friction, base upgrades are the next topic. The answer should follow the bottleneck, not a generic leaderboard."
+        ],
+        "links": ["/guides/base-upgrades-money/", "/guides/speed-treadmill-biomes/"]
+      },
+      {
+        "heading": "How to compare eggs and pets safely",
+        "paragraphs": [
+          "A safe comparison begins with the source, not with the conclusion. Look for a date, a clear game reference, and an explanation of what each label means. Then check the live game client before you rely on a roster, value, or unlock implication. This approach is less dramatic than declaring a permanent best choice, but it remains useful when the collection changes.",
+          "Compare the whole situation rather than isolating one field. An entry may look rare in a reference, yet the relevant question may be whether its biome context matches your current progression or whether your real limitation lies in movement or base support. The guide links below turn that comparison into a next action instead of a static ranking."
+        ],
+        "items": [
+          "Read biome and rarity together rather than treating either as a complete answer.",
+          "Treat income as current progression context, not a permanent promise.",
+          "Check the source date before trusting a roster or value claim.",
+          "Prefer the live game client when it conflicts with an older reference."
+        ],
+        "links": ["/guides/beginner-guide/", "/guides/speed-treadmill-biomes/", "/guides/base-upgrades-money/"]
+      },
+      {
+        "heading": "What changes after updates",
+        "paragraphs": [
+          "Collection pages need a visible checked date because the details they describe can move. An update can affect a roster, its labels, its values, or how a progression path is understood. Even a careful guide should not imply that it can maintain an always-complete list without checking the current experience and its sources again.",
+          "This page keeps the durable part of the answer: eggs lead into pets, pets connect to money, and biome, rarity, and income context are useful comparison signals. It leaves update-sensitive specifics to current, dated references. If you are deciding between a new collection choice and a broader upgrade, verify the current information first and then return to the relevant decision guide."
+        ],
+        "links": ["/guides/admin-abuse-events/", "/guides/codes/"]
+      },
+      {
+        "heading": "Use the result to choose your next guide",
+        "paragraphs": [
+          "After you have compared an egg or pet safely, do not stop at the list. If your next question is about getting around the game and reaching the next part of progression, read the treadmill, speed, and biomes guide. If the next question is how to use the money connected to your pets, read the base upgrades and money guide.",
+          "The beginner guide is the right reset when the systems still feel disconnected. It explains the route from egg to pet to money before you try to optimize it. Together, these pages are intended to help you make a current decision without inventing a fixed roster, numerical earning claim, or permanent best-pet hierarchy."
+        ],
+        "links": ["/guides/beginner-guide/", "/guides/speed-treadmill-biomes/", "/guides/base-upgrades-money/"]
       }
     ],
     "sources": [
@@ -170,28 +260,72 @@
     "checkedDate": "2026-08-25",
     "sections": [
       {
-        "heading": "What the treadmill is for",
+        "heading": "What the treadmill does",
         "paragraphs": [
-          "The official experience description names treadmill upgrades and speed. The recorded beginner guide places treadmill use in the broader route from early setup to later progression.",
-          "In practical terms, train speed when getting around is the thing that makes the rest of your loop feel slow. Do not train only because a detached checklist says to do so."
+          "The official Steal An Egg description names treadmill upgrades and speed, so the treadmill is the public speed-training system. The recorded beginner guide also places treadmill use in the wider progression loop rather than presenting it as a cosmetic side activity. Its purpose is straightforward: it is the system to consider when mobility is making the rest of your play feel restrictive.",
+          "That purpose matters more than an imported threshold. A treadmill decision is useful when it helps you move through the current loop with less friction, not because a static checklist says every player must train at the same moment. The live game client is the place to verify its present options and requirements; this guide explains the decision behind checking them."
         ],
         "links": ["/guides/beginner-guide/", "/guides/base-upgrades-money/"]
       },
       {
-        "heading": "How speed connects to biomes",
+        "heading": "Why speed matters",
         "paragraphs": [
-          "The collection guide and the beginner guide both organize progress around biomes or later stages. Speed belongs in that conversation because movement affects how you reach and work within the next part of the game.",
-          "This evidence does not support publishing a permanent table of biome names, numerical gates, or the single best route. Check the current game state before you plan around a threshold."
+          "Speed matters because Steal An Egg connects stealing, returning to base, hatching, money, and further progression. When getting around is difficult, it can slow more than one part of that loop. Mobility is therefore worth treating as a practical question: is travel or positioning the reason your next action feels delayed, awkward, or harder to repeat?",
+          "The answer is not automatically yes. If a pet-related money question or a base limitation is more visible than travel, spend your attention there first. The available evidence supports speed as a progression category, not as a universal answer to every slowdown. This distinction keeps the guide useful without inventing a particular target, gate, or permanent training order."
+        ],
+        "links": ["/guides/base-upgrades-money/", "/guides/eggs-pets-income/"]
+      },
+      {
+        "heading": "How speed fits into the game loop",
+        "paragraphs": [
+          "A helpful way to read the loop is egg, pet, money, movement, and progression. The egg creates the opportunity to hatch a pet at the base. The pet connects to money. Money supports later choices, while movement can affect how smoothly you reach opportunities and work through the wider game. The treadmill belongs in that movement part of the conversation.",
+          "This map is deliberately simple. It does not claim that every upgrade has the same effect or that speed always outranks collection and base support. Instead, it gives you a way to locate the problem before you choose a category. When the map points to movement, inspect the treadmill. When it points to collection or money support, use the guide that covers that part of the loop."
+        ],
+        "items": [
+          "Use eggs and pets to understand the collection side of the loop.",
+          "Use money to identify which broader progression choice is possible next.",
+          "Use speed training when movement is the clear source of friction.",
+          "Return to the live client before relying on any changing requirement or cost."
+        ],
+        "links": ["/guides/beginner-guide/", "/guides/eggs-pets-income/", "/guides/base-upgrades-money/"]
+      },
+      {
+        "heading": "Understanding biomes",
+        "paragraphs": [
+          "The recorded collection and beginner sources connect progression with biome-based organization. That makes biomes useful context for a player who is comparing where a collection reference places an egg or pet, or who is trying to understand what the next part of progression represents. They are not a reason to publish an everlasting path chart when the game can change.",
+          "A safe biome question has two parts. First, what does the current game client show about the area or progression state you are trying to reach? Second, how does that state affect the collection or movement choice in front of you? Sources can help explain the vocabulary, but live information should decide a current action whenever an older guide and the game itself no longer match."
         ],
         "links": ["/guides/eggs-pets-income/", "/guides/"]
       },
       {
-        "heading": "Choose the next improvement",
+        "heading": "When to focus on speed",
         "paragraphs": [
-          "If the problem is travel and positioning, look at speed. If the problem is the money loop or the way your pet setup is supported, compare base-related upgrades instead.",
-          "Use the collection guide to understand what a new biome or rarity context could change, not as a guarantee of current values."
+          "Focus on speed when travel is the bottleneck you can actually observe. That may mean movement is making the egg-to-base route feel inefficient, positioning is holding back the next part of progression, or the rest of your setup is ready while mobility remains the obvious friction. In that situation, the treadmill is a more relevant category to investigate than a detached collection ranking.",
+          "Do not force a speed choice when the evidence in your own play points elsewhere. If the central issue is the pet-to-money loop, compare eggs, pets, and income context. If the central issue is how your base supports the next change, compare base-related upgrades. This framework stays valid without pretending to know the current threshold at which every player should switch focus."
         ],
-        "links": ["/guides/base-upgrades-money/", "/guides/eggs-pets-income/"]
+        "links": ["/guides/eggs-pets-income/", "/guides/base-upgrades-money/"]
+      },
+      {
+        "heading": "Common progression mistakes",
+        "paragraphs": [
+          "One common mistake is treating speed as a standalone number instead of a response to a real problem. Training because an old guide prescribed a universal order can leave a more important limitation untouched. The opposite mistake is overlooking movement entirely when travel is clearly slowing the wider loop. Both errors come from using a rigid script instead of reading the current situation.",
+          "Another mistake is confusing biome context with a fixed unlock chart. The sources support that biomes are part of progression and collection organization, but they do not give this site a reliable basis for permanent gates, names, or route claims. Check the live experience for those details, then use this page to decide why speed may or may not be relevant to the next move."
+        ],
+        "items": [
+          "Do not copy an old speed target into the current game without checking it.",
+          "Do not ignore a base or money bottleneck just because speed is visible.",
+          "Do not treat a collection article as proof of a permanent biome route.",
+          "Do not confuse a dated event change with the normal progression loop."
+        ],
+        "links": ["/guides/admin-abuse-events/", "/guides/base-upgrades-money/"]
+      },
+      {
+        "heading": "Plan the next session",
+        "paragraphs": [
+          "At the start of a session, identify the task that feels hardest to repeat. If the answer is movement, inspect the treadmill and current speed options in game. If the answer is collection context, use the eggs and pets guide to compare a dated reference with the live client. If the answer is spending, use the base guide to decide which category removes the visible friction.",
+          "This approach keeps the progression pages connected. It also avoids the false confidence of a giant biome list, a guaranteed route, or a numerical requirement that may have been changed. Read the current display, use the sources for context, and choose the page that matches the bottleneck you have actually found."
+        ],
+        "links": ["/guides/beginner-guide/", "/guides/eggs-pets-income/", "/guides/base-upgrades-money/"]
       }
     ],
     "sources": [
@@ -210,28 +344,73 @@
     "checkedDate": "2026-08-25",
     "sections": [
       {
-        "heading": "Follow the money back to the loop",
+        "heading": "How money works in the loop",
         "paragraphs": [
-          "Money is connected to pets in the official description, so spending should be evaluated by what it does for the next egg-to-pet-to-upgrade cycle.",
-          "Ask one question before you spend: is the current limit movement, available setup capacity, or the base itself? That makes the choice clearer than comparing a price in isolation."
+          "The official experience description connects pets to money. That makes money the resource that carries the egg-to-pet loop into its next progression choice. It is more useful to ask what a purchase changes in that loop than to treat money as an isolated score. A spend is valuable when it removes a limitation you can see in the way you collect, return, hatch, move, or maintain your setup.",
+          "This is why an income claim alone is not enough to recommend an upgrade. A player can have a working pet-to-money connection while still being slowed by movement, or can have enough mobility while a base-related limit is more relevant. Start with the present friction, then compare the category that speaks to it. The amount shown by an older guide is less important than the current effect you can confirm in game."
         ],
         "links": ["/guides/beginner-guide/", "/guides/eggs-pets-income/"]
       },
       {
-        "heading": "Use a broad order, not a frozen shopping list",
+        "heading": "What base upgrades are for",
         "paragraphs": [
-          "The recorded beginner source discusses treadmill or speed, slots, and base upgrades as categories to compare. It does not make a permanent claim about exact costs, payback times, or a single correct order for every update.",
-          "When travel slows your entire loop, examine speed. When your setup cannot support the next step, examine capacity or base improvements. Verify costs inside the current game client."
+          "The base is where an egg is hatched into a pet, and the public game description names base upgrades alongside treadmill upgrades. In other words, the base is part of the practical setup that makes the loop work. Base improvements should be read in relation to that setup, rather than as a list of purchases that can be recommended without seeing the current game state.",
+          "The recorded beginner material discusses base improvements and available space as broad progression categories. It does not establish an unchanging catalog of effects, current prices, or a fixed best order. Verify what the current interface offers, identify the limitation the option is meant to address, and only then compare it with speed or collection-related choices."
         ],
-        "links": ["/guides/speed-treadmill-biomes/", "/guides/eggs-pets-income/"]
+        "links": ["/guides/beginner-guide/", "/guides/speed-treadmill-biomes/"]
       },
       {
-        "heading": "Avoid false precision",
+        "heading": "How to think about upgrade priority",
         "paragraphs": [
-          "This guide deliberately does not publish prices, income projections, or permanent rankings. Those numbers are the first claims to become stale after a balance change.",
-          "Keep the source date visible, and use the linked beginner and collection guides to decide what to recheck when the game updates."
+          "A useful priority method starts with one question: what is preventing the next clean cycle of progress? If travel is the friction, the treadmill and speed category deserve attention. If the collection side is unclear, compare eggs and pets in their current biome, rarity, and income context. If the setup around the pet loop is the friction, look at the relevant base category in the live client.",
+          "This is deliberately a decision framework, not a claimed meta. The available sources support the relationship between pets, money, speed, available space, and base upgrades, but they do not support a universal order or fixed payback calculation. A flexible framework stays more honest when the game changes and gives you a reason for every choice you make."
         ],
-        "links": ["/guides/", "/guides/beginner-guide/"]
+        "items": [
+          "Identify whether movement, collection context, or base support is the present bottleneck.",
+          "Check the live description of the relevant option before spending.",
+          "Choose the category that improves the next repeatable loop, not the loudest label.",
+          "Revisit the decision after the game changes or your bottleneck moves."
+        ],
+        "links": ["/guides/speed-treadmill-biomes/", "/guides/eggs-pets-income/", "/guides/"]
+      },
+      {
+        "heading": "Money versus progression",
+        "paragraphs": [
+          "The choice that looks most directly connected to money is not always the choice that improves progression most. If a movement problem makes the egg-to-base route harder to repeat, a speed-related improvement may help the whole loop more than an isolated comparison. If the pet setup is the visible limit, a base-related option may be more relevant than a movement choice.",
+          "This does not mean you should ignore money. It means money is part of a chain of decisions. Pets contribute to it, and it enables you to respond to the current constraint. Use it to unlock the next useful action after checking the live game, not as proof that a fixed purchase order from a previous update still applies."
+        ],
+        "links": ["/guides/eggs-pets-income/", "/guides/speed-treadmill-biomes/"]
+      },
+      {
+        "heading": "What not to spend around blindly",
+        "paragraphs": [
+          "Do not make a purchase solely because a third-party page calls it mandatory, fastest, or best. The evidence available to this site does not verify permanent prices, numerical returns, or an exact order that applies across updates. Those are the claims most likely to become misleading when a balance or interface changes.",
+          "Instead, avoid false precision. Look at the current option, decide which bottleneck it addresses, and compare that answer with what your own loop needs. A current in-game description is stronger evidence for a live decision than an undated screenshot or copied claim. The lack of a fixed price table here is intentional: it prevents an independent guide from manufacturing certainty."
+        ],
+        "links": ["/guides/", "/guides/admin-abuse-events/"]
+      },
+      {
+        "heading": "A simple progression checklist",
+        "paragraphs": [
+          "Use this checklist when you have money to spend but no clear priority. It converts a vague upgrade question into a quick review of the confirmed systems. The goal is not to follow every item in a preset order; the goal is to find the one part of the loop that is holding back the rest.",
+          "Once you identify the answer, open the related guide rather than guessing the detail it covers. The beginner page reconnects the full loop, the collection page explains eggs and pets, and the treadmill page explains when movement is the relevant topic. This keeps spending tied to a reason that can be checked."
+        ],
+        "items": [
+          "Can you complete the egg-to-pet loop at the base without a visible setup problem?",
+          "Is the pet-to-money connection supporting the next useful change?",
+          "Is movement the part that makes the loop difficult to repeat?",
+          "Does the current base option address a limitation you can see now?",
+          "Have you checked the live game instead of relying on an old price or effect claim?"
+        ],
+        "links": ["/guides/beginner-guide/", "/guides/eggs-pets-income/", "/guides/speed-treadmill-biomes/"]
+      },
+      {
+        "heading": "Keep the decision current",
+        "paragraphs": [
+          "Base, speed, collection, and event information can change independently. After an update, recheck the current interface before carrying an old spending plan forward. The underlying framework remains stable: trace money back to the pet loop, identify the bottleneck, and choose the category that removes it. The exact live details should come from the game, not a permanent-looking guide table.",
+          "If a claim depends on a special event or a possible code system, treat it as a separate status question. Those topics have their own checked dates and their own evidence limits. Keeping them separate prevents temporary reports from becoming bad advice for normal base progression."
+        ],
+        "links": ["/guides/admin-abuse-events/", "/guides/codes/", "/guides/"]
       }
     ],
     "sources": [
@@ -272,6 +451,30 @@
           "This page is an explainer for what was recorded, not a promise that the event is live now."
         ],
         "links": ["/guides/", "/guides/codes/"]
+      },
+      {
+        "heading": "What was confirmed and what was not",
+        "paragraphs": [
+          "The recorded evidence supports an Admin Abuse event context and a dated August event window. It does not supply a complete, confirmed reward list or a full mechanics breakdown. Those are different levels of certainty, so this page keeps them separate rather than presenting one broad claim with an official-sounding tone.",
+          "A report that an event was announced or discussed can explain the search intent. It cannot establish that every feature mentioned in community posts was active, repeatable, or still relevant later. Where the source boundary stops, this guide says unknown or unverified instead of filling the gap with a likely-sounding explanation."
+        ],
+        "links": ["/guides/", "/guides/codes/"]
+      },
+      {
+        "heading": "Rewards and rumors",
+        "paragraphs": [
+          "No full reward list or detailed event-mechanics list was verified by the sources used for this page. Specific reward claims therefore remain unconfirmed unless a player can check them in the current game or against a developer-owned announcement. This page will not turn a rumor, screenshot, or copied statement into a reward promise.",
+          "The same caution applies to claims that an event permanently changes eggs, pets, money, speed, or base progression. Those systems have separate guides and should be checked through current in-game information. A temporary event report should not replace the normal progression loop or be treated as proof that an effect remains active."
+        ],
+        "links": ["/guides/eggs-pets-income/", "/guides/speed-treadmill-biomes/", "/guides/base-upgrades-money/"]
+      },
+      {
+        "heading": "How to verify the next event",
+        "paragraphs": [
+          "For a future event, first check the Roblox experience page and any developer-owned announcement. Then look at the in-game information while the event is visible. A clear live description is stronger evidence than a dated report, a circulating screenshot, or an unverified claim shared without a source.",
+          "If the only evidence is a community post, treat the detail as unknown rather than confirmed. You can still use this page to understand the earlier recorded context, then return to the guide hub for normal progression help. Codes have their own status page because a possible redemption system needs its own independent verification."
+        ],
+        "links": ["/guides/codes/", "/guides/"]
       }
     ],
     "sources": [
@@ -312,6 +515,44 @@
           "Recheck the linked sources and the current game before expecting this status to remain the same."
         ],
         "links": ["/guides/", "/"]
+      },
+      {
+        "heading": "Are there working Steal An Egg codes?",
+        "paragraphs": [
+          "No verified active Steal An Egg codes were found at the latest check. The recorded status sources both reported no active codes, and this site has no developer-owned evidence that changes that conclusion. The answer is intentionally direct because a code page is only useful when it distinguishes a verified redemption path from an unverified string.",
+          "This page does not generate possible codes, republish copied strings, or imply that a reward can be claimed when there is no confirmed way to enter it. If a real system is added later, it needs a fresh check before this status changes. Until then, the accurate answer is that a usable code has not been verified."
+        ],
+        "links": ["/guides/", "/guides/admin-abuse-events/"]
+      },
+      {
+        "heading": "Why some websites list codes",
+        "paragraphs": [
+          "Code pages can become unreliable without a clear redemption path. A site may retain old information, copy an unverified string, or confuse a promotion or event with an actual code. That does not prove a specific page is acting in bad faith; it simply means the reader should look for evidence before entering anything or expecting a reward.",
+          "The safest signal is not a long list of strings. It is a visible in-game redemption interface combined with current information from a developer-owned source or a result you can observe in the game. When those signals are missing, an honest status page should say so rather than filling the gap with plausible-looking codes."
+        ],
+        "links": ["/guides/admin-abuse-events/", "/guides/"]
+      },
+      {
+        "heading": "How a code would be verified",
+        "paragraphs": [
+          "A future code should be treated as verified only after the game itself provides a redemption path and the result can be checked. A developer-owned announcement is the preferred supporting source because it connects the claim to the people responsible for the experience. A screenshot alone, a copied list, or a reward rumor does not provide the same confidence.",
+          "This verification method protects players from wasted time and keeps the page useful when the status changes. It also avoids inventing a redemption method that the recorded sources did not find. The steps are simple enough to repeat whenever an update introduces a legitimate system."
+        ],
+        "items": [
+          "Find a clearly visible in-game code or redemption interface.",
+          "Confirm the code information through a developer-owned announcement when available.",
+          "Enter the code only through the live game interface.",
+          "Verify that the claimed result is actually shown in game before listing it here."
+        ],
+        "links": ["/guides/", "/guides/beginner-guide/"]
+      },
+      {
+        "heading": "What to check if codes are added later",
+        "paragraphs": [
+          "If the status changes, check the Roblox experience description, developer announcements, and the in-game interface before trusting a code list. Those sources answer different parts of the question: whether a system exists, whether a string is being announced, and whether there is a real place to redeem it. A current answer needs all of those pieces to line up.",
+          "This page will remain a dated status check rather than a promise about when codes might arrive. It can be updated when reliable evidence appears, but it will not predict a future release or convert an event name into a redemption instruction. For normal progression questions, return to the guide hub and use the game-system pages instead."
+        ],
+        "links": ["/guides/", "/guides/admin-abuse-events/", "/guides/base-upgrades-money/"]
       }
     ],
     "sources": [

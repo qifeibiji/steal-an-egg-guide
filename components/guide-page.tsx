@@ -9,6 +9,17 @@ const guideGroups = [
   { name: "Status", paths: ["/guides/admin-abuse-events/", "/guides/codes/"] }
 ];
 
+function formatCheckedDate(value: string) {
+  const [year, month, day] = value.split("-").map(Number);
+
+  return new Intl.DateTimeFormat("en", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC"
+  }).format(new Date(Date.UTC(year, month - 1, day)));
+}
+
 function RelatedLinks({ paths }: { paths: string[] }) {
   return (
     <div className="related-links" aria-label="Related guides">
@@ -73,7 +84,7 @@ export function GuidePage({ page }: { page: PageData }) {
       <header className="article-header">
         <div className="article-header__meta">
           <p className="article-kicker">{page.topic}</p>
-          <p className="checked-note"><span aria-hidden="true" />Checked {page.checkedDate}</p>
+          <p className="checked-note"><span aria-hidden="true" />Last checked: {formatCheckedDate(page.checkedDate)}</p>
         </div>
         <h1>{page.h1}</h1>
         <p className="article-answer">{page.answer}</p>
@@ -89,6 +100,11 @@ export function GuidePage({ page }: { page: PageData }) {
             <div>
               <h2>{section.heading}</h2>
               {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+              {section.items && (
+                <ul className="article-list">
+                  {section.items.map((item) => <li key={item}>{item}</li>)}
+                </ul>
+              )}
               <RelatedLinks paths={section.links} />
             </div>
           </section>

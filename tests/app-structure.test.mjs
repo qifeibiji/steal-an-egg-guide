@@ -44,3 +44,11 @@ test("uses the dark game wiki presentation without adding new routes", () => {
   assert.match(guide, /guide-groups/, "guide hub must group the current guide cards");
   assert.match(shell, /label: "Status"/, "header status link must use an existing page");
 });
+
+test("renders content checklists and reader-friendly checked dates", () => {
+  const guide = fs.readFileSync(path.join(root, "components", "guide-page.tsx"), "utf8");
+
+  assert.match(guide, /section\.items/, "guide sections must support structured lists");
+  assert.match(guide, /article-list/, "guide lists need a stable presentation hook");
+  assert.match(guide, /Last checked:/, "update-sensitive pages need a clear checked-date label");
+});

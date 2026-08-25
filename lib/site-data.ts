@@ -8,6 +8,7 @@ export type Source = {
 export type Section = {
   heading: string;
   paragraphs: string[];
+  items?: string[];
   links: string[];
 };
 
