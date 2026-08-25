@@ -52,3 +52,13 @@ test("renders content checklists and reader-friendly checked dates", () => {
   assert.match(guide, /article-list/, "guide lists need a stable presentation hook");
   assert.match(guide, /Last checked:/, "update-sensitive pages need a clear checked-date label");
 });
+
+test("prepares optional GA4 and Search Console integrations without hardcoded IDs", () => {
+  const layout = fs.readFileSync(path.join(root, "app", "layout.tsx"), "utf8");
+
+  assert.match(layout, /NEXT_PUBLIC_GA_MEASUREMENT_ID/, "GA4 must read its measurement ID from the environment");
+  assert.match(layout, /GOOGLE_SITE_VERIFICATION/, "Search Console verification must read its token from the environment");
+  assert.match(layout, /googletagmanager\.com\/gtag\/js/, "GA4 must use the standard Google tag endpoint");
+  assert.match(layout, /verification:\s*\{\s*google:/, "metadata must expose the Google verification token when configured");
+  assert.doesNotMatch(layout, /\bG-[A-Z0-9]{5,}\b/, "a GA measurement ID must never be hardcoded");
+});
