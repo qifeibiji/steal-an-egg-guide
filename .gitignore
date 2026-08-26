@@ -10,6 +10,10 @@ out/
 # Local environment values
 .env*
 !.env.example
+.ops-state/
+.secrets/
+ops/reports/*.json
+ops/reports/*.md
 
 # Verification output
 coverage/

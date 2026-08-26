@@ -1,0 +1,13 @@
+{
+  "pages": [
+    { "route": "/", "page_type": "hub", "primary_topic": "Steal An Egg", "mapped_queries": ["steal an egg", "steal an egg guide"], "update_sensitive": true, "current_sources": ["official-experience", "spawnscope-history"], "checked_date_required": true },
+    { "route": "/guides/", "page_type": "guide_hub", "primary_topic": "Steal An Egg guides", "mapped_queries": ["steal an egg guides", "steal an egg wiki"], "update_sensitive": true, "current_sources": ["official-experience", "community-wiki"], "checked_date_required": true },
+    { "route": "/guides/beginner-guide/", "page_type": "guide", "primary_topic": "Steal An Egg beginner guide", "mapped_queries": ["steal an egg beginner guide", "how to play steal an egg"], "update_sensitive": true, "current_sources": ["official-experience", "beginner-guide"], "checked_date_required": true },
+    { "route": "/guides/eggs-pets-income/", "page_type": "guide", "primary_topic": "Steal An Egg eggs, pets, and income", "mapped_queries": ["steal an egg eggs", "steal an egg pets", "steal an egg income"], "update_sensitive": true, "current_sources": ["games-gg-eggs-pets", "stealthy-gaming-eggs-pets"], "checked_date_required": true },
+    { "route": "/guides/speed-treadmill-biomes/", "page_type": "guide", "primary_topic": "Steal An Egg speed, treadmill, and biomes", "mapped_queries": ["steal an egg speed", "steal an egg treadmill", "steal an egg biomes"], "update_sensitive": true, "current_sources": ["games-gg-eggs-pets", "beginner-guide"], "checked_date_required": true },
+    { "route": "/guides/base-upgrades-money/", "page_type": "guide", "primary_topic": "Steal An Egg base upgrades and money", "mapped_queries": ["steal an egg base upgrades", "steal an egg money"], "update_sensitive": true, "current_sources": ["official-experience", "beginner-guide"], "checked_date_required": true },
+    { "route": "/guides/admin-abuse-events/", "page_type": "status_guide", "primary_topic": "Steal An Egg Admin Abuse events", "mapped_queries": ["steal an egg admin abuse", "steal an egg events"], "update_sensitive": true, "current_sources": ["allthings-admin-abuse", "stealanegg-app-admin-abuse"], "checked_date_required": true },
+    { "route": "/guides/codes/", "page_type": "status_guide", "primary_topic": "Steal An Egg codes", "mapped_queries": ["steal an egg codes"], "update_sensitive": true, "current_sources": ["bloxinformer-codes", "ldplayer-codes"], "checked_date_required": true }
+  ],
+  "backlog": ["mutations", "sizes", "updates"]
+}

@@ -1,0 +1,86 @@
+name: Content Ops Monitor
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - uses: actions/cache/restore@v4
+        with:
+          path: .ops-state
+          key: content-ops-${{ github.ref }}-${{ github.run_id }}
+          restore-keys: |
+            content-ops-${{ github.ref }}-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Configure optional Google credential
+        if: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON != '' }}
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          mkdir -p .secrets
+          printf '%s' "$GOOGLE_SERVICE_ACCOUNT_JSON" > .secrets/google-service-account.json
+
+      - name: Run monitor-only content ops
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: .secrets/google-service-account.json
+          GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+        run: npm run ops:run
+
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .ops-state
+          key: content-ops-${{ github.ref }}-${{ github.run_id }}
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: content-ops-${{ github.run_id }}
+          path: |
+            ops/reports/
+            .ops-state/source-scan.json
+          if-no-files-found: warn
+
+      - name: Create or update the actionable review issue
+        if: ${{ success() && hashFiles('ops/reports/actionable.json') != '' }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const actionable = JSON.parse(fs.readFileSync('ops/reports/actionable.json', 'utf8'));
+            if (!actionable.actionable) return;
+            const marker = '<!-- content-ops-review -->';
+            const report = fs.readFileSync('ops/reports/candidate-queue.md', 'utf8').slice(0, 60000);
+            const date = new Date().toISOString().slice(0, 10);
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner, repo, state: 'open', per_page: 100,
+            });
+            const existing = issues.find((issue) => issue.body && issue.body.includes(marker));
+            const title = `Content Ops Review — ${date}`;
+            const body = `${marker}\n\n${report}`;
+            if (existing) {
+              await github.rest.issues.update({ owner, repo, issue_number: existing.number, title, body });
+            } else {
+              await github.rest.issues.create({ owner, repo, title, body });
+            }

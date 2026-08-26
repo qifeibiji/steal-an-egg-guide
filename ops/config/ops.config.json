@@ -1,0 +1,11 @@
+{
+  "source_monitor": {
+    "request_timeout_ms": 15000,
+    "min_request_delay_ms": 1000,
+    "user_agent": "StealAnEggContentOps/1.0 (+https://www.steal2eggs.wiki)"
+  },
+  "queue": {
+    "minimum_impressions": 10,
+    "include_queries_with_clicks": true
+  }
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "official-experience",
+    "url": "https://www.roblox.com/games/107778070777162/Steal-An-Egg",
+    "source_name": "Steal An Egg official experience",
+    "source_type": "Roblox official experience page",
+    "target_pages": ["/", "/guides/", "/guides/beginner-guide/", "/guides/base-upgrades-money/"],
+    "update_sensitive": true,
+    "enabled": true,
+    "checked_at": "2026-08-25",
+    "priority": "high"
+  },
+  {
+    "id": "spawnscope-history",
+    "url": "https://spawnscope.com/games/steal-an-egg/",
+    "source_name": "SpawnScope player count and update history",
+    "source_type": "Public Roblox API tracker",
+    "target_pages": ["/"],
+    "update_sensitive": true,
+    "enabled": true,
+    "checked_at": "2026-08-25",
+    "priority": "medium"
+  },
+  {
+    "id": "community-wiki",
+    "url": "https://steal-an-egg.online/",
+    "source_name": "Steal An Egg Wiki",
+    "source_type": "Unofficial structured game wiki",
+    "target_pages": ["/guides/"],
+    "update_sensitive": true,
+    "enabled": true,
+    "checked_at": "2026-08-25",
+    "priority": "medium"
+  },
+  {
+    "id": "beginner-guide",
+    "url": "https://stealaneggguide.wiki/guides/beginner-guide/",
+    "source_name": "Steal An Egg Beginner Guide",
+    "source_type": "Dated structured game guide",
+    "target_pages": ["/guides/beginner-guide/", "/guides/speed-treadmill-biomes/", "/guides/base-upgrades-money/"],
+    "update_sensitive": true,
+    "enabled": true,
+    "checked_at": "2026-08-25",
+    "priority": "medium"
+  },
+  {
+    "id": "games-gg-eggs-pets",
+    "url": "https://games.gg/roblox/guides/steal-an-egg-all-eggs-pets-and-income-rates/",
+    "source_name": "All Eggs, Pets, & Income Rates",
+    "source_type": "Dated game guide",
+    "target_pages": ["/guides/eggs-pets-income/", "/guides/speed-treadmill-biomes/"],
+    "update_sensitive": true,
+    "enabled": true,
+    "checked_at": "2026-08-25",
+    "priority": "medium"
+  },
+  {
+    "id": "stealthy-gaming-eggs-pets",
+    "url": "https://stealthygaming.com/steal-an-egg-all-eggs-and-pets-list/",
+    "source_name": "All Eggs and Pets List",
+    "source_type": "Dated game guide",
+    "target_pages": ["/guides/eggs-pets-income/"],
+    "update_sensitive": true,
+    "enabled": true,
+    "checked_at": "2026-08-25",
+    "priority": "medium"
+  },
+  {
+    "id": "allthings-admin-abuse",
+    "url": "https://allthings.how/steal-an-egg-admin-abuse-event-first-update/",
+    "source_name": "Admin Abuse Event (First Update)",
+    "source_type": "Dated editorial game guide",
+    "target_pages": ["/guides/admin-abuse-events/"],
+    "update_sensitive": true,
+    "enabled": true,
+    "checked_at": "2026-08-25",
+    "priority": "medium"
+  },
+  {
+    "id": "stealanegg-app-admin-abuse",
+    "url": "https://stealanegg.app/updates/admin-abuse/",
+    "source_name": "Admin Abuse Start Time & New Zone",
+    "source_type": "Structured event-status page",
+    "target_pages": ["/guides/admin-abuse-events/"],
+    "update_sensitive": true,
+    "enabled": true,
+    "checked_at": "2026-08-25",
+    "priority": "medium"
+  },
+  {
+    "id": "bloxinformer-codes",
+    "url": "https://bloxinformer.com/wikis/steal-an-egg/codes/",
+    "source_name": "Steal An Egg Codes",
+    "source_type": "Dated structured game wiki",
+    "target_pages": ["/guides/codes/"],
+    "update_sensitive": true,
+    "enabled": true,
+    "checked_at": "2026-08-25",
+    "priority": "medium"
+  },
+  {
+    "id": "ldplayer-codes",
+    "url": "https://www.ldplayer.net/blog/roblox-steal-an-egg-codes.html?n=30420",
+    "source_name": "Roblox Steal an Egg Codes (August 2026)",
+    "source_type": "Dated game-platform guide",
+    "target_pages": ["/guides/codes/"],
+    "update_sensitive": true,
+    "enabled": true,
+    "checked_at": "2026-08-25",
+    "priority": "medium"
+  }
+]

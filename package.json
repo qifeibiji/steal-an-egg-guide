@@ -6,10 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "node --test tests/site-gates.test.mjs tests/app-structure.test.mjs",
-    "validate": "node scripts/validate-site.mjs"
+    "test": "node --test tests/site-gates.test.mjs tests/app-structure.test.mjs tests/ops.test.mjs",
+    "validate": "node scripts/validate-site.mjs",
+    "ops:scan-sources": "node ops/scripts/source-scan.mjs",
+    "ops:collect-gsc": "node ops/scripts/collect-gsc.mjs",
+    "ops:collect-ga": "node ops/scripts/collect-ga.mjs",
+    "ops:import-gsc": "node ops/scripts/import-gsc.mjs",
+    "ops:import-ga": "node ops/scripts/import-ga.mjs",
+    "ops:queue": "node ops/scripts/build-candidate-queue.mjs",
+    "ops:report": "node ops/scripts/build-ops-report.mjs",
+    "ops:validate": "node ops/scripts/validate-ops.mjs",
+    "ops:run": "node ops/scripts/run-ops.mjs"
   },
   "dependencies": {
+    "google-auth-library": "^11.0.2",
     "next": "16.3.2",
     "react": "19.2.8",
     "react-dom": "19.2.8"
